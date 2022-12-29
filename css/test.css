@@ -1,0 +1,51 @@
+.test {
+  margin-bottom: 110px;
+}
+
+.test__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 154px;
+  margin: 0 auto;
+}
+
+.test__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 154px;
+  height: 154px;
+  border-radius: 30px;
+  background-color: #d2c9f2;
+}
+
+.test__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: var(--darken-color);
+}
+
+.test__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test__button picture {
+  margin-bottom: 20px;
+}
+.test__button span {
+  font-family: "Montserrat", sans-serif;
+  color: var(--light-color);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=test.css.map */
