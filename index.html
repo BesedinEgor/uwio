@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      href="./fonts/lato/LatoRegular.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/lato/LatoBold.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Montserrat/MontserratExtraLight.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Montserrat/MontserratRegular.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Montserrat/MontserratExtraLight.woff2"
+      type="font/woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Uwio</title>
+  </head>
+  <body class="page-body">
+    <div class="inner__body">
+      <header class="main-header">
+        <div class="container">
+          <div class="main-header__inner">
+            <nav class="main-nav">
+              <button class="main-nav__burger button">
+                <span class="main-nav__burger-line"></span>
+                <span class="main-nav__burger-line"></span>
+                <span class="main-nav__burger-line"></span>
+              </button>
+            </nav>
+            <div class="main-header__title">
+              <a class="main-header__logo" href="index.html">
+                <picture>
+                  <img
+                    class="header-logo"
+                    src="img/logo-mobile.png"
+                    alt="Uwio"
+                    width="86"
+                    height="39"
+                  />
+                </picture>
+              </a>
+              <h1 class="main-header__descr">
+                Онлайн-консультации психологов и коучей для женщин
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main-container">
+        <section class="communication">
+          <div class="container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    class="img-slide"
+                    src="img/slide1.png"
+                    alt="слайд видеозвонка со специалистом"
+                    width="315"
+                    height="181"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="img-slide"
+                    src="img/slide2.png"
+                    alt="слайд видеозвонка со специалистом"
+                    width="315"
+                    height="181"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="topic">
+          <div class="container">
+            <h2 class="visually-hidden">Подбор специалиста</h2>
+            <div class="topic__inner">
+              <ul class="topic__items list-reset">
+                <li class="topic__item">
+                  <input
+                    class="topic__radio visually-hidden"
+                    type="radio"
+                    id="relationships"
+                    name="topic"
+                    value="relationships"
+                    checked
+                  />
+                  <label class="topic__label" for="relationships"
+                    >Отношения и состояния</label
+                  >
+                </li>
+                <li class="topic__item">
+                  <input
+                    class="topic__radio visually-hidden"
+                    type="radio"
+                    id="parents"
+                    name="topic"
+                    value="parents"
+                  />
+                  <label class="topic__label" for="parents"
+                    >Родителям и детям</label
+                  >
+                </li>
+                <li class="topic__item">
+                  <input
+                    class="topic__radio visually-hidden"
+                    type="radio"
+                    id="height"
+                    name="topic"
+                    value="height"
+                  />
+                  <label class="topic__label" for="height"
+                    >Личностный рост</label
+                  >
+                </li>
+              </ul>
+
+              <a class="topic__btn-link" href="#">Подобрать специалиста</a>
+              <span class="topic__price">50 мин от 2890₽</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="purposes">
+          <div class="container">
+            <h2 class="visually-hidden">
+              Цели, которые будут достигнуты с психологом
+            </h2>
+            <p class="purposes__title">
+              Сессии с психологом —
+              <span>лучший способ обрести спокойствие и счастье </span>
+            </p>
+            <div class="purposes__bg">
+              <picture>
+                <img
+                  class="purposes_img"
+                  src="img/transparent-bg.png"
+                  alt="декоративная рамка"
+                  width="300"
+                  height="632"
+                />
+              </picture>
+            </div>
+            <ul class="purposes__items list-reset">
+              <li class="purposes__item">
+                Нормализовать эмоциональное состояние и разобраться в себе
+              </li>
+              <li class="purposes__item">
+                Восстановить отношения с партнером или окружающими Вас людьми
+              </li>
+              <li class="purposes__item">
+                Совершить качественный скачок в личностном росте
+              </li>
+              <li class="purposes__item">
+                Восстановить психологическое здоровье ребенка
+              </li>
+              <li class="purposes__item">
+                Помочь подростку найти себя и справится с трудностями
+              </li>
+              <li class="purposes__item">
+                Наладить доверительные отношения с сыном/дочерью
+              </li>
+              <li class="purposes__item">
+                Получить стратегию правильного воспитания и развития ребенка
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="test">
+          <div class="container">
+            <h2 class="visually-hidden">Прохождение теста</h2>
+            <div class="test__inner">
+              <p class="test__title">Для чего мне психолог?</p>
+              <a href="#" class="test__link">
+                <div class="test__button">
+                  <picture>
+                    <svg
+                      width="42"
+                      height="42"
+                      viewBox="0 0 42 42"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 20.8348C0 9.32806 9.32826 0 20.835 0V0C32.3417 0 41.67 9.32806 41.67 20.8348V20.8348C41.67 32.3415 32.3417 41.6696 20.835 41.6696V41.6696C9.32826 41.6696 0 32.3415 0 20.8348V20.8348Z"
+                        fill="white"
+                      />
+                      <circle
+                        cx="12.7105"
+                        cy="21.1851"
+                        r="3.10306"
+                        fill="#D2C9F2"
+                      />
+                      <circle
+                        cx="20.689"
+                        cy="21.1851"
+                        r="3.10306"
+                        fill="#D2C9F2"
+                      />
+                      <circle
+                        cx="28.6695"
+                        cy="21.1851"
+                        r="3.10306"
+                        fill="#D2C9F2"
+                      />
+                    </svg>
+                  </picture>
+                  <span>Пройти тест</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="purposes-slider">
+          <div class="container">
+            <h2 class="purposes-slider__title">
+              Каждый день помогаем женщинам быть счастливее!
+            </h2>
+
+            <div class="purposes-slider-swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide__container">
+                    <h3 class="swiper-slide__title">Отношения и состояния</h3>
+                    <p class="swiper-slide__description">
+                      ✓ Преодолеете тревогу, стресс или депрессию
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Решите проблемы в отношениях с партнером или окружающими
+                      людьми
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Проработаете внутриличностные проблемы и преодолеете
+                      кризис
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Избавитесь от одиночества и выстроите приятный круг
+                      общения
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__container">
+                    <h3 class="swiper-slide__title">Детям и родителям</h3>
+                    <p class="swiper-slide__description">
+                      ✓ Справитесь с дородовой и послеродовой депрессией
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Избавите ребенка от агрессии, пугливости или замкнутости
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Восстановите близкие и доверительные с сыном или дочерью
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Поможете ребенку наладить контакт со сверстниками и
+                      найти себя
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__container">
+                    <h3 class="swiper-slide__title">Личностный рост</h3>
+                    <p class="swiper-slide__description">
+                      ✓ Вернете мотивацию, энергию и начнете идти к своей цели
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Найдете свое призвание и примите себя
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Повысите самооценку и станете решительным
+                    </p>
+                    <p class="swiper-slide__description">
+                      ✓ Научитесь контролировать эмоции и улучшите умственную
+                      активность
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <a class="topic__btn-link purposes-slider__btn-link" href="#"
+              >Подобрать специалиста</a
+            >
+          </div>
+        </section>
+
+        <section class="the-best">
+          <div class="container">
+            <h2 class="the-best__title">Выбираем лучших психологов</h2>
+            <div class="the-best__container">
+              <div class="the-best__item">
+                <picture>
+                  <img src="img/profi1.png" alt="" width="191" height="191" />
+                </picture>
+              </div>
+              <div class="the-best__item">
+                <picture>
+                  <img src="img/profi2.png" alt="" width="191" height="191" />
+                </picture>
+              </div>
+              <div class="the-best__item">
+                <picture>
+                  <img src="img/profi3.png" alt="" width="191" height="191" />
+                </picture>
+              </div>
+              <div class="the-best__item the-best__item-inner">
+                <a class="the-best__item-link" href="#">+300</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills">
+          <div class="container">
+            <h2 class="visually-hidden">Умения и навыки специалистов</h2>
+            <div class="skills__item">
+              <h3 class="skills__title">Образование с реальным результатом</h3>
+              <p class="skills__description">
+                Проверяем не только наличие диплома, но и результативность
+                работы. Парадоксально, но реальный талант психолога кратно
+                ценнее документа об образовании.
+              </p>
+            </div>
+            <div class="skills__item">
+              <h3 class="skills__title">Опыт от 3 лет</h3>
+              <p class="skills__description">
+                Все люди разные и проблема каждого по своему особенна - только
+                опытный психолог сможет качественно проработать тонкости
+                проблемы клиента.
+              </p>
+            </div>
+            <div class="skills__item">
+              <h3 class="skills__title">Регулярное обучение</h3>
+              <p class="skills__description">
+                Даже профессионалам необходимо становится лучше и продолжать
+                обучение. Проводим регулярные образовательные программы для
+                повышения результативности наших психологов.
+              </p>
+            </div>
+            <a
+              class="topic__btn-link purposes-slider__btn-link skills__btn-link"
+              href="#"
+              >Подобрать психолога</a
+            >
+          </div>
+        </section>
+
+        <section class="statistics">
+          <h2 class="visually-hidden">Статистика компании</h2>
+          <p class="statistics__title">
+            Мы доверяем вам и открыто делимся статистикой
+          </p>
+          <div class="statistics__container">
+            <div class="container">
+              <div class="statistics__items">
+                <dl class="statistics__item">
+                  <dt class="statistics__number">975</dt>
+                  <dd class="statistics__description">
+                    консультаций проведено вчера
+                  </dd>
+                </dl>
+                <dl class="statistics__item">
+                  <dt class="statistics__number">4325</dt>
+                  <dd class="statistics__description">
+                    женщин стали счастливее
+                  </dd>
+                </dl>
+                <dl class="statistics__item">
+                  <dt class="statistics__number">89%</dt>
+                  <dd class="statistics__description">индекс эффективности</dd>
+                </dl>
+                <dl class="statistics__item">
+                  <dt class="statistics__number">2.3%</dt>
+                  <dd class="statistics__description">
+                    клиентов остались недовольны
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <div class="statistics__box skills__item">
+              <h3 class="statistics__box-title skills__title">
+                Расскажите, как ваша жизнь изменилась после сессий или оставьте
+                реакцию:
+              </h3>
+              <div class="statistics__box-inner">
+                <a href="#" class="statistics__box-btn color1">
+                  <span>+800</span>
+                  <picture>
+                    <svg
+                      width="50"
+                      height="43"
+                      viewBox="0 0 50 43"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.890625 24.9583C0.890625 11.493 11.8064 0.577148 25.2718 0.577148H28.8181C40.3249 0.577148 49.6529 9.90521 49.6529 21.412V21.412C49.6529 32.9187 40.3249 42.2468 28.8181 42.2468H3.89062C2.23377 42.2468 0.890625 40.9036 0.890625 39.2468V24.9583Z"
+                        fill="white"
+                      />
+                      <circle
+                        cx="18.2926"
+                        cy="23.185"
+                        r="3.10306"
+                        fill="#3F67F4"
+                      />
+                      <circle
+                        cx="26.2711"
+                        cy="23.185"
+                        r="3.10306"
+                        fill="#3F67F4"
+                      />
+                      <circle
+                        cx="34.2515"
+                        cy="23.185"
+                        r="3.10306"
+                        fill="#3F67F4"
+                      />
+                    </svg>
+                  </picture>
+                  <p class="statistics__box-dedscription">
+                    Рассказать о результате
+                  </p>
+                </a>
+
+                <a href="#" class="statistics__box-btn color2">
+                  <span>+800</span>
+                  <picture>
+                    <svg
+                      width="46"
+                      height="40"
+                      viewBox="0 0 46 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22.593 39.7335L19.317 36.8753C7.68162 26.7633 0 20.0941 0 11.9092C0 5.24006 5.4675 0 12.4261 0C16.3573 0 20.1304 1.7539 22.593 4.52551C25.0556 1.7539 28.8287 0 32.7598 0C39.7185 0 45.186 5.24006 45.186 11.9092C45.186 20.0941 37.5044 26.7633 25.869 36.8969L22.593 39.7335Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </picture>
+                  <p class="statistics__box-dedscription">Оставить реакцию</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="main-footer"></footer>
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

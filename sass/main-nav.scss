@@ -1,0 +1,40 @@
+.main-nav {
+  display: flex;
+  order: 1;
+  align-items: flex-start;
+}
+
+.main-nav__burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.main-nav__burger-line {
+  width: 9px;
+  height: 9px;
+  background-color: var(--light-color);
+  border-radius: 50%;
+}
+
+.main-header__title {
+  display: flex;
+  width: 237px;
+  margin: 40px 0;
+  flex-direction: column;
+}
+
+.main-header__logo {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.main-header__descr {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: var(--light-color);
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 20px;
+}
