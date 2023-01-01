@@ -1,0 +1,63 @@
+.analysis__title {
+  margin: 0 0 30px 25px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--darken-color);
+}
+
+.analysis__item {
+  height: auto;
+  margin: 0 auto;
+  background: linear-gradient(180deg, rgb(210, 201, 242) 30%, rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 50px;
+}
+
+.analysis__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  counter-reset: list-counter;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.analysis__elem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.analysis__text {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--darken-color);
+  margin: 0;
+  padding: 10px 0 10px 70px;
+}
+.analysis__text::after {
+  counter-increment: list-counter;
+  content: counter(list-counter) "";
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  line-height: 39px;
+  color: var(--light-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #89c2ff 0%, #c2b4f5 100%);
+}
+
+/*# sourceMappingURL=analysis.css.map */
