@@ -33,6 +33,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
+  &:last-child {
+    .analysis__text::before {
+      content: none;
+    }
+  }
 }
 
 .analysis__text {
@@ -62,5 +68,19 @@
     transform: translateY(-50%);
     border-radius: 50%;
     background: linear-gradient(180deg, #89c2ff 0%, #c2b4f5 100%);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/analysis-line.png);
+    background-repeat: repeat;
+    width: 2px;
+    height: calc((100% - 10%) - -70%);
+    color: var(--light-color);
+    /* z-index: 1; */
+    background-size: 92%;
+    left: 20px;
+    top: 15px;
   }
 }

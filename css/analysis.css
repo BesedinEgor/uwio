@@ -30,6 +30,9 @@
   align-items: center;
   justify-content: flex-start;
 }
+.analysis__elem:last-child .analysis__text::before {
+  content: none;
+}
 
 .analysis__text {
   position: relative;
@@ -58,6 +61,19 @@
   transform: translateY(-50%);
   border-radius: 50%;
   background: linear-gradient(180deg, #89c2ff 0%, #c2b4f5 100%);
+}
+.analysis__text::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/analysis-line.png);
+  background-repeat: repeat;
+  width: 2px;
+  height: 160%;
+  color: var(--light-color);
+  /* z-index: 1; */
+  background-size: 92%;
+  left: 20px;
+  top: 15px;
 }
 
 /*# sourceMappingURL=analysis.css.map */
