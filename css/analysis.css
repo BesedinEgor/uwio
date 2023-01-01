@@ -1,3 +1,10 @@
+.analysis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
 .analysis__title {
   margin: 0 0 30px 25px;
   padding: 0;
@@ -11,7 +18,7 @@
   height: auto;
   margin: 0 auto;
   background: linear-gradient(180deg, rgb(210, 201, 242) 30%, rgba(255, 255, 255, 0) 100%);
-  margin-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .analysis__list {
@@ -70,10 +77,13 @@
   width: 2px;
   height: 160%;
   color: var(--light-color);
-  /* z-index: 1; */
   background-size: 92%;
   left: 20px;
   top: 15px;
+}
+
+.analysis__btn-link {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=analysis.css.map */
