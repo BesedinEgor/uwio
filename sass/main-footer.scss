@@ -1,0 +1,25 @@
+.main-footer__logo {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.main-footer__box {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 40px;
+  padding: 50px 30px;
+}
+
+.main-footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-footer__item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
