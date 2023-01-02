@@ -6,3 +6,7 @@
   grid-template-rows: min-content 1fr min-content;
   background-color: #f1f2f4;
 }
+
+.no-scroll {
+  overflow: hidden;
+}

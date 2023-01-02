@@ -106,15 +106,47 @@ a {
   background-color: #f1f2f4;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   width: 320px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
+.main-header {
+  position: relative;
+}
+
 .main-header__inner {
   display: flex;
   justify-content: space-around;
+}
+
+.main-header__menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #f1f2f4;
+  z-index: 2;
+}
+
+.main-header__menu-logo {
+  padding-top: 5px;
+}
+
+.none {
+  display: none;
+}
+
+.burger__active {
+  z-index: 3;
+}
+.burger__active span {
+  background-color: #d2c9f2;
 }
 
 .main-nav {
