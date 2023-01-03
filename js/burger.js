@@ -6,7 +6,16 @@ const handlerOpen = (e) => {
   e.preventDefault();
   menu.classList.toggle("none");
   burger.classList.toggle("burger__active");
-  body.classList.toggle('no-scroll');
+  body.classList.toggle("no-scroll");
 };
 
 burger.addEventListener("click", handlerOpen);
+
+document.addEventListener("click", (elem) => {
+  const withinBoundaries = elem.composedPath().includes(menu);
+
+  if (!withinBoundaries) {
+    // menu.classList.add('none')
+    console.log("click");
+  }
+});

@@ -132,10 +132,12 @@ a {
   height: auto;
   background: #f1f2f4;
   z-index: 2;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .main-header__menu-logo {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .none {
@@ -144,9 +146,14 @@ a {
 
 .burger__active {
   z-index: 3;
+  margin-right: 13px;
 }
 .burger__active span {
   background-color: #d2c9f2;
+  margin-right: 6px;
+}
+.burger__active span:last-child {
+  margin-right: 0;
 }
 
 .main-nav {
@@ -299,13 +306,13 @@ a {
 .purposes {
   position: relative;
   margin-bottom: 50px;
-  padding-bottom: 380px;
+  padding-bottom: 300px;
 }
 .purposes::after {
   content: "";
   position: absolute;
-  width: 300px;
-  height: 491px;
+  width: 333px;
+  height: 400px;
   background: url(../img/special-user.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -342,7 +349,7 @@ a {
   position: absolute;
   width: 280px;
   height: 600px;
-  background-image: url(../img/transparent-bg.png);
+  background-image: url("../img/transparent-bg.png");
   background-repeat: no-repeat;
   background-position: 50% 40%;
   background-size: contain;
@@ -373,7 +380,7 @@ a {
 }
 
 .test {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .test__inner {
@@ -423,7 +430,7 @@ a {
 }
 
 .purposes-slider {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .purposes-slider__title {
@@ -461,7 +468,7 @@ a {
   width: 230px;
   height: 1px;
   background-color: var(--light-color);
-  top: 75px;
+  top: 55px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -473,7 +480,7 @@ a {
   line-height: 20px;
   margin: 0;
   padding: 0;
-  padding-top: 47px;
+  padding-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -555,7 +562,7 @@ a {
 }
 
 .skills {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .skills__item {
@@ -574,7 +581,7 @@ a {
   color: var(--darken-color);
   margin: 0;
   margin-bottom: 18px;
-  padding: 60px 0 0 25px;
+  padding: 30px 0 0 25px;
   text-align: left;
 }
 
@@ -592,7 +599,7 @@ a {
 }
 
 .statistics {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .statistics__title {
@@ -738,7 +745,7 @@ a {
 }
 
 .reviews {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .reviews__swiper-wrapper {

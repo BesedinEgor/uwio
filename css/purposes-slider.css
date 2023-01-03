@@ -1,5 +1,5 @@
 .purposes-slider {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .purposes-slider__title {
@@ -37,7 +37,7 @@
   width: 230px;
   height: 1px;
   background-color: var(--light-color);
-  top: 75px;
+  top: 55px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -49,7 +49,7 @@
   line-height: 20px;
   margin: 0;
   padding: 0;
-  padding-top: 47px;
+  padding-top: 30px;
   margin-bottom: 30px;
 }
 

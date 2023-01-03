@@ -14,10 +14,12 @@
   height: auto;
   background: #f1f2f4;
   z-index: 2;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .main-header__menu-logo {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .none {
@@ -26,7 +28,14 @@
 
 .burger__active {
   z-index: 3;
+  margin-right: 13px;
+
   span {
     background-color: #d2c9f2;
+    margin-right: 6px;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

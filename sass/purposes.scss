@@ -1,13 +1,13 @@
 .purposes {
   position: relative;
   margin-bottom: 50px;
-  padding-bottom: 380px;
+  padding-bottom: 300px;
 
   &::after {
     content: "";
     position: absolute;
-    width: 300px;
-    height: 491px;
+    width: 333px;
+    height: 400px;
     background: url(../img/special-user.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -46,7 +46,7 @@
     position: absolute;
     width: 280px;
     height: 600px;
-    background-image: url(../img/transparent-bg.png);
+    background-image: url("../img/transparent-bg.png");
     background-repeat: no-repeat;
     background-position: 50% 40%;
     background-size: contain;
