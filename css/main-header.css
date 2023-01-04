@@ -22,13 +22,17 @@
   padding-top: 10px;
 }
 
+.main-header__link {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
 .none {
   display: none;
 }
 
 .burger__active {
   z-index: 3;
-  margin-right: 13px;
 }
 .burger__active span {
   background-color: #d2c9f2;

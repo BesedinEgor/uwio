@@ -24,4 +24,9 @@
   line-height: 18px;
 }
 
+.main-footer__link {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
 /*# sourceMappingURL=main-footer.css.map */
