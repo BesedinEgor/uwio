@@ -1,7 +1,17 @@
-.container {
-  width: 320px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 6 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\container.scss 6:22  root stylesheet */
 
-/*# sourceMappingURL=container.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\container.scss 6:22  root stylesheet";
+}

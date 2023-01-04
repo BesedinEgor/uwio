@@ -1,5 +1,9 @@
 .topic {
   margin-bottom: 50px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 130px;
+  }
 }
 
 .topic__inner {
@@ -7,6 +11,12 @@
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .topic__items {
@@ -14,6 +24,13 @@
   flex-direction: column;
   gap: 15px;
   margin-bottom: 40px;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 60px;
+  }
 }
 
 .topic__label {
@@ -91,4 +108,21 @@
   font-size: 12px;
   line-height: 19px;
   color: var(--light-color);
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.topic__price-desk {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #877cbc;
+  }
 }

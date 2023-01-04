@@ -47,8 +47,18 @@
     <div class="inner__body">
       <header class="main-header">
         <div class="container">
+          <nav class="main-header__menu-desk" aria-label="Навигационное меню">
+            <ul class="main-header__items list-reset">
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">Подобрать психолога</a>
+              </li>
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">Оставить отзыв</a>
+              </li>
+            </ul>
+          </nav>
           <div class="main-header__inner">
-            <nav class="main-nav">
+            <nav class="main-nav" aria-label="Навигационное меню">
               <button class="main-nav__burger button">
                 <span class="main-nav__burger-line"></span>
                 <span class="main-nav__burger-line"></span>
@@ -105,6 +115,7 @@
             </div>
             <div class="main-header__title">
               <a class="main-header__logo" href="index.html">
+                <span>Uwio</span>
                 <picture>
                   <img
                     class="header-logo"
@@ -118,11 +129,12 @@
               <h1 class="main-header__descr">
                 Онлайн-консультации психологов и коучей для женщин
               </h1>
+              <a class="login" href="#">Вход</a>
             </div>
           </div>
         </div>
       </header>
-      <main class="main-container">
+       <main class="main-container">
         <section class="communication">
           <div class="container">
             <div class="swiper">
@@ -132,8 +144,8 @@
                     class="img-slide"
                     src="img/slide1.png"
                     alt="слайд видеозвонка со специалистом"
-                    width="315"
-                    height="181"
+                    width="350"
+                    height="268"
                   />
                 </div>
                 <div class="swiper-slide">
@@ -141,8 +153,8 @@
                     class="img-slide"
                     src="img/slide2.png"
                     alt="слайд видеозвонка со специалистом"
-                    width="315"
-                    height="181"
+                    width="350"
+                    height="268"
                   />
                 </div>
               </div>
@@ -194,10 +206,10 @@
                   >
                 </li>
               </ul>
-
-              <a class="topic__btn-link" href="#">Подобрать специалиста</a>
-              <span class="topic__price">50 мин от 2890₽</span>
+                <a class="topic__btn-link" href="#">Подобрать специалиста</a>
+                <span class="topic__price">50 мин от 2890₽</span>  
             </div>
+            <span class="topic__price-desk">50 мин от 2890₽</span>
           </div>
         </section>
 
@@ -236,7 +248,7 @@
           </div>
         </section>
 
-        <section class="test">
+        <!--<section class="test">
           <div class="container">
             <h2 class="visually-hidden">Прохождение теста</h2>
             <div class="test__inner">
@@ -744,7 +756,7 @@
             </ul>
           </div>
         </div>
-      </footer>
+      </footer> -->
     </div>
 
     <script src="js/burger.js"></script>

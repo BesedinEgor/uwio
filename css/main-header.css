@@ -1,45 +1,17 @@
-.main-header {
-  position: relative;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\main-header.scss 4:22  root stylesheet */
 
-.main-header__inner {
-  display: flex;
-  justify-content: space-around;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\main-header.scss 4:22  root stylesheet";
 }
-
-.main-header__menu {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: auto;
-  background: #f1f2f4;
-  z-index: 2;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-.main-header__menu-logo {
-  padding-top: 10px;
-}
-
-.main-header__link {
-  text-decoration: none;
-  color: var(--dark-color);
-}
-
-.none {
-  display: none;
-}
-
-.burger__active {
-  z-index: 3;
-}
-.burger__active span {
-  background-color: #d2c9f2;
-  margin-right: 6px;
-}
-.burger__active span:last-child {
-  margin-right: 0;
-}
-
-/*# sourceMappingURL=main-header.css.map */

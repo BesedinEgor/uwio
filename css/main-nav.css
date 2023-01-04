@@ -1,42 +1,17 @@
-.main-nav {
-  display: flex;
-  order: 1;
-  align-items: flex-start;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 6 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\main-nav.scss 6:22  root stylesheet */
 
-.main-nav__burger {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\main-nav.scss 6:22  root stylesheet";
 }
-
-.main-nav__burger-line {
-  width: 9px;
-  height: 9px;
-  background-color: var(--light-color);
-  border-radius: 50%;
-}
-
-.main-header__title {
-  display: flex;
-  width: 237px;
-  margin: 40px 0;
-  flex-direction: column;
-}
-
-.main-header__logo {
-  margin-bottom: 5px;
-  cursor: pointer;
-}
-
-.main-header__descr {
-  font-family: "Montserrat", sans-serif;
-  text-align: left;
-  color: var(--light-color);
-  font-weight: 600;
-  line-height: 24px;
-  font-size: 20px;
-}
-
-/*# sourceMappingURL=main-nav.css.map */
