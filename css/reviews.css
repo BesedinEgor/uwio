@@ -1,86 +1,17 @@
-.reviews {
-  margin-bottom: 50px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\reviews.scss 4:22  root stylesheet */
 
-.reviews__swiper-wrapper {
-  margin-bottom: 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\reviews.scss 4:22  root stylesheet";
 }
-
-.reviews__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.reviews__title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: var(--darken-color);
-  margin-left: 20px;
-}
-
-.reviews__slider-description {
-  width: 260px;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--darken-color);
-  margin-bottom: 30px;
-}
-
-.reviews__slider-footer {
-  width: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-}
-
-.reviews__user .reviews__user-img {
-  width: 150px;
-  height: auto;
-}
-
-.reviews__description {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--darken-color);
-}
-
-.reviews__arrow-inner {
-  position: relative;
-  margin: 0 auto;
-  width: 70px;
-  height: 40px;
-}
-
-.reviews__next::after,
-.reviews__prev::after {
-  content: "";
-  position: absolute;
-  width: 13px;
-  height: 22px;
-  background: url("../img/svg/arrow-next.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.reviews__next {
-  right: -7px;
-}
-
-.reviews__prev {
-  left: -7px;
-}
-.reviews__prev::after {
-  transform: rotate(180deg);
-}
-
-/*# sourceMappingURL=reviews.css.map */

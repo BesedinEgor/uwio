@@ -1,13 +1,21 @@
 @font-face {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 200;
-  src: url("../fonts/Montserrat/MontserratExtraLight.woff") format("woff2");
+  src: url("../fonts/Montserrat/MontserratExtraLight.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Montserrat//MontserratMedium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/Montserrat/MontserratRegular.woff2") format("woff2");
@@ -15,7 +23,15 @@
 }
 
 @font-face {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Montserrat/MontserratSemiBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/Montserrat/MontserratBold.woff2") format("woff2");
@@ -23,7 +39,7 @@
 }
 
 @font-face {
-  font-family: "Lato" sans-serif;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/lato/LatoRegular.woff2") format("woff2");
@@ -31,7 +47,7 @@
 }
 
 @font-face {
-  font-family: "Lato" sans-serif;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/lato/LatoBold.woff2") format("woff2");

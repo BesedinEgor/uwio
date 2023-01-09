@@ -1,5 +1,10 @@
 .test {
   margin-bottom: 50px;
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+    margin-bottom: 300px;
+  }
 }
 
 .test__inner {
@@ -8,6 +13,26 @@
   align-items: center;
   min-width: 200px;
   margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    width: 176px;
+    align-items: flex-start;
+    margin: 0;
+    top: -127px;
+  }
+}
+
+.test__link-desk {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #877cbc;
+  }
 }
 
 .test__link {
@@ -19,6 +44,10 @@
   height: 154px;
   border-radius: 30px;
   background-color: #d2c9f2;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .test__title {
@@ -30,6 +59,22 @@
   padding: 0;
   margin-bottom: 20px;
   color: var(--darken-color);
+
+  @media (min-width: $desktop-width) {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--darken-color);
+    margin-bottom: 0;
+  }
+
+  br {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: inline;
+    }
+  }
 }
 
 .test__button {

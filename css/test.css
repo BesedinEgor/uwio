@@ -1,51 +1,17 @@
-.test {
-  margin-bottom: 50px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\test.scss 4:22  root stylesheet */
 
-.test__inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 200px;
-  margin: 0 auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\test.scss 4:22  root stylesheet";
 }
-
-.test__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  width: 154px;
-  height: 154px;
-  border-radius: 30px;
-  background-color: #d2c9f2;
-}
-
-.test__title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 20px;
-  color: var(--darken-color);
-}
-
-.test__button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.test__button picture {
-  margin-bottom: 20px;
-}
-.test__button span {
-  font-family: "Montserrat", sans-serif;
-  color: var(--light-color);
-  font-size: 15px;
-  line-height: 18px;
-  font-weight: 500;
-}
-
-/*# sourceMappingURL=test.css.map */

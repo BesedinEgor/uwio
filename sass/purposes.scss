@@ -8,12 +8,24 @@
     position: absolute;
     width: 333px;
     height: 400px;
-    background: url(../img/special-user.png);
+    background: url("../img/special-user.png");
     background-repeat: no-repeat;
     background-size: 100%;
     right: 0;
     z-index: 3;
     bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    &::after {
+      width: 824px;
+      height: 680px;
+      background: url("../img/special-user-desk.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      right: 0;
+      bottom: -220px;
+    }
   }
 }
 
@@ -72,9 +84,57 @@
 
   @media (min-width: $desktop-width) {
     position: absolute;
+    display: grid;
+    grid-template-columns: 344.8px 279.2px;
+    grid-template-rows: 65px 65px 65px 65px 65px;
+    grid-template-areas:
+      "message1 message1"
+      "message2 message3"
+      "message4 message5"
+      "message6 message6"
+      "message7 message7";
     right: 0;
     left: 50%;
-    top: 0;
+    top: -145px;
+
+    &::after {
+      content: none;
+    }
+    .message1 {
+      grid-area: message1;
+      width: 351px;
+      left: -132px;
+    }
+    .message2 {
+      grid-area: message2;
+      width: 344px;
+      left: -245px;
+    }
+    .message3 {
+      grid-area: message3;
+      width: 264px;
+      left: -280px;
+    }
+    .message4 {
+      grid-area: message4;
+      width: 291px;
+      left: -180px;
+    }
+    .message5 {
+      grid-area: message5;
+      width: 254px;
+      left: -270px;
+    }
+    .message6 {
+      grid-area: message6;
+      width: 343px;
+      left: -17px;
+    }
+    .message7 {
+      grid-area: message7;
+      width: 290px;
+      left: -45px;
+    }
   }
 }
 
@@ -96,6 +156,10 @@
 
   &:nth-child(2n + 1) {
     margin-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 10px 20px 10px 30px;
   }
 }
 

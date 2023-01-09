@@ -1,0 +1,123 @@
+.feedback {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  order: 4;
+}
+
+.feedback__box {
+  position: absolute;
+  bottom: 50px;
+  margin: 0 auto;
+  padding-left: 0;
+  height: auto;
+
+  @media (min-width: $desktop-width) {
+    width: 609px;
+    padding: 56px 91px 54px 91px;
+    left: 50%;
+    bottom: -170px;
+    transform: translateX(-50%);
+  }
+}
+
+.feedback__box-title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  @media (min-width: $desktop-width) {
+    width: 420px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 53px;
+  }
+}
+
+.feedback__box-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  @media (min-width: $desktop-width) {
+    gap: 19px;
+  }
+}
+
+.feedback__box-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+
+  @media (min-width: $desktop-width) {
+    width: 174px;
+    height: 174px;
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 6px;
+    margin-left: 60px;
+    color: var(--light-color);
+
+    @media (min-width: $desktop-width) {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+
+  picture {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  &.color1 {
+    background-color: #3f67f4;
+
+    svg {
+      @media (min-width: $desktop-width) {
+        width: 55px;
+        height: 47px;
+      }
+    }
+  }
+
+  &.color2 {
+    background-color: #fc196b;
+
+    svg {
+      @media (min-width: $desktop-width) {
+        width: 50px;
+        height: 44px;
+      }
+    }
+  }
+}
+
+.feedback__box-dedscription {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  max-width: 105px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: var(--light-color);
+
+  @media (min-width: $desktop-width) {
+    font-weight: 600;
+  }
+}

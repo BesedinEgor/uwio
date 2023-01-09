@@ -1,40 +1,17 @@
-.the-best {
-  margin-bottom: 15px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\the-best.scss 4:22  root stylesheet */
 
-.the-best__title {
-  margin-left: 30px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\the-best.scss 4:22  root stylesheet";
 }
-
-.the-best__container {
-  display: grid;
-  grid-template-columns: repeat(2, 140px);
-  grid-template-rows: repeat(2, 140px);
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.the-best__item {
-  width: 140px;
-  height: 140px;
-}
-
-.the-best__item-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 40px;
-  background-color: var(--light-color);
-}
-
-.the-best__item-link {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 59px;
-  color: #c2b4f5;
-}
-
-/*# sourceMappingURL=the-best.css.map */

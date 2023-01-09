@@ -6,6 +6,21 @@
   margin-top: -240px;
   padding-top: 190px;
   margin-bottom: 50px;
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/advantages-bg-desk.png");
+    background-size: 200%;
+    padding-top: 390px;
+  }
+}
+
+.advantages__box {
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/svg/advantages-doteline.svg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 40% -7%;
+  }
 }
 
 .advantages__company,
@@ -21,17 +36,34 @@
   font-size: 14px;
   line-height: 17px;
   margin-bottom: 10px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    font-weight: 600;
+  }
 }
 
 .advantages__title {
-  width: 220px;
+  max-width: 220px;
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 40px;
+
+  @media (min-width: $desktop-width) {
+    max-width: 660px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+  }
 }
 
 .advantages-slider__swiper {
   padding-bottom: 50px;
+}
+
+.advantages__swiper-wrapper {
+  // flex-direction: column;
+  // align-items: center;
 }
 
 .advantages-slide__container {
@@ -79,6 +111,9 @@
 }
 
 .advantages__arrow-inner {
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
   .swiper-button-next {
     &::after {
       content: "";

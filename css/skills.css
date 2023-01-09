@@ -1,38 +1,17 @@
-.skills {
-  margin-bottom: 50px;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\skills.scss 4:22  root stylesheet */
 
-.skills__item {
-  width: 300px;
-  height: auto;
-  border-radius: 40px;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
-  margin-bottom: 40px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\skills.scss 4:22  root stylesheet";
 }
-
-.skills__title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--darken-color);
-  margin: 0;
-  margin-bottom: 18px;
-  padding: 30px 0 0 25px;
-  text-align: left;
-}
-
-.skills__description {
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  color: var(--darken-color);
-  margin: 0;
-  padding: 0 8px 0 25px;
-}
-
-.skills__btn-link {
-  background-color: #c2b4f5;
-}
-
-/*# sourceMappingURL=skills.css.map */

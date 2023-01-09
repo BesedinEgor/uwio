@@ -1,34 +1,17 @@
-.team__box-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  padding-left: 0;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 7 |   @media (min-width: $desktop-width) {
+ *   |                      ^^^^^^^^^^^^^^
+ *   '
+ *   sass\team.scss 7:22  root stylesheet */
 
-.team-slider__wrapper {
-  margin-bottom: 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 7 \2502    @media (min-width: $desktop-width) {\d\a   \2502                       ^^^^^^^^^^^^^^\a   \2575 \a   sass\\team.scss 7:22  root stylesheet";
 }
-
-.team__box-citation {
-  width: 250px;
-  margin: 0 auto;
-  padding: 0;
-  font-size: 17px;
-  line-height: 22px;
-  margin-bottom: 20px;
-}
-
-.team__box-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.team__user-img {
-  width: 220px;
-}
-
-/*# sourceMappingURL=team.css.map */

@@ -6,6 +6,20 @@
   }
 }
 
+.main-header__box {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    background: url("../img/main-header-boxdesk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 190px;
+    padding-top: 50px;
+  }
+}
+
 .main-header__menu-desk {
   display: none;
 
