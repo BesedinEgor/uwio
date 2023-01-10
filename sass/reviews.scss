@@ -6,7 +6,7 @@
   }
 }
 
-.reviews__swiper {
+.reviews-swiper {
   @media (min-width: $desktop-width) {
     display: flex;
     align-items: center;
@@ -14,11 +14,11 @@
   }
 }
 
-.reviews__swiper-wrapper {
+.reviews-swiper-wrapper {
   margin-bottom: 20px;
 }
 
-.reviews__swiper-slide {
+.reviews-swiper-slide {
   @media (min-width: $desktop-width) {
     min-width: 1141px;
   }

@@ -28,7 +28,7 @@
   }
 }
 
-.team-slider__wrapper {
+.team-swiper-wrapper {
   margin-bottom: 20px;
 }
 
@@ -71,6 +71,7 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    z-index: 1;
   }
 }
 

@@ -27,6 +27,12 @@
   }
 }
 
+.purposes-swiper {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 38px;
+  }
+}
+
 .purposes-slider-swiper {
   margin-bottom: 35px;
 }
@@ -49,6 +55,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0 52px;
+    padding-bottom: 20px;
     min-height: 424px;
     background: linear-gradient(
       180deg,

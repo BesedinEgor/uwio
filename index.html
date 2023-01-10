@@ -151,9 +151,9 @@
       <main class="main-container">
         <section class="communication">
           <div class="container">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+            <div class="swiper comunication-swiper">
+              <div class="swiper-wrapper comunication-swiper-wrapper">
+                <div class="swiper-slide comunication-swiper-slide">
                   <img
                     class="img-slide"
                     src="img/slide1.png"
@@ -162,7 +162,7 @@
                     height="268"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide comunication-swiper-slide">
                   <img
                     class="img-slide"
                     src="img/slide2.png"
@@ -173,7 +173,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination comunication-swiper-pagination"></div>
           </div>
         </section>
 
@@ -318,9 +318,9 @@
               Каждый день помогаем женщинам быть счастливее!
             </h2>
 
-            <div class="purposes-slider-swiper swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
+            <div class="swiper purposes-swiper">
+              <div class="swiper-wrapper purposes-swiper-wrapper">
+                <div class="swiper-slide purposes-swiper-slide">
                   <div class="purposes-swiper-slide__container">
                     <h3 class="purposes-swiper-slide__title">
                       Отношения и состояния
@@ -342,7 +342,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide purposes-swiper-slide">
                   <div class="purposes-swiper-slide__container">
                     <h3 class="purposes-swiper-slide__title">
                       Детям и родителям
@@ -362,7 +362,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide purposes-swiper-slide">
                   <div class="purposes-swiper-slide__container">
                     <h3 class="purposes-swiper-slide__title">
                       Личностный рост
@@ -591,9 +591,9 @@
         <section class="reviews">
           <div class="container">
             <h2 class="reviews__title">Истории клиентов</h2>
-            <div class="reviews__swiper swiper">
-              <div class="reviews__swiper-wrapper swiper-wrapper">
-                <div class="reviews__swiper-slide swiper-slide">
+            <div class="swiper reviews-swiper">
+              <div class="swiper-wrapper reviews-swiper-wrapper">
+                <div class="swiper-slide reviews-swiper-slide">
                   <div class="reviews__container">
                     <blockquote class="reviews__slider-description">
                       «Психолог? Нет, он не волшебник, не чудотворец, не атлет,
@@ -620,6 +620,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="reviews__arrow-inner">
                 <div class="reviews__prev swiper-button-prev"></div>
                 <div class="reviews__next swiper-button-next"></div>
@@ -667,9 +668,10 @@
             <div class="advantages__box">
               <p class="advantages__company">Uwio —</p>
               <p class="advantages__title">решение проблем в одном касании</p>
-              <div class="advantages-slider__swiper swiper">
-                <div class="advantages__swiper-wrapper swiper-wrapper">
-                  <div class="swiper-slide">
+              <span class="advantages__title-span">из любой точки мира</span>
+              <div class="swiper advantages-swiper">
+                <div class="swiper-wrapper advantages-swiper-wrapper">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container">
                       <h3 class="advantages-slide__title">
                         Уникальная person-tech платформа
@@ -680,7 +682,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container slide-bg2">
                       <h3 class="advantages-slide__title">
                         Легкое управление расписанием
@@ -691,7 +693,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container slide-bg3">
                       <h3 class="advantages-slide__title">Live-заметки</h3>
                       <p class="advantages-slide__description">
@@ -700,7 +702,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container slide-bg4">
                       <h3 class="advantages-slide__title">
                         Образовательные программы
@@ -711,7 +713,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container slide-bg5">
                       <h3 class="advantages-slide__title">
                         Чат с экспертами Uwio
@@ -722,7 +724,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide advantages-swiper-slide">
                     <div class="advantages-slide__container slide-bg6">
                       <h3 class="advantages-slide__title">Мы рядом</h3>
                       <p class="advantages-slide__description">
@@ -736,6 +738,72 @@
                   <div class="reviews__next swiper-button-next"></div>
                 </div>
               </div>
+
+              <div class="advantages-desktop">
+                <div class="advantages-desktop__wrapper">
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container">
+                      <h3 class="advantages-slide__title">
+                        Уникальная person-tech платформа
+                      </h3>
+                      <p class="advantages-slide__description">
+                        Видеоконсультации конфиденциальны, проходят в личном
+                        кабинете и доступны с любого устройства
+                      </p>
+                    </div>
+                  </div>
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container slide-bg2">
+                      <h3 class="advantages-slide__title">
+                        Легкое управление расписанием
+                      </h3>
+                      <p class="advantages-slide__description">
+                        Выбирайте удобное время и переносите сессии во
+                        встроенном календаре
+                      </p>
+                    </div>
+                  </div>
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container slide-bg3">
+                      <h3 class="advantages-slide__title">Live-заметки</h3>
+                      <p class="advantages-slide__description">
+                        Сохраняйте важные рекомендации вашего психолога, чтобы
+                        терапия проходила эффективно и увлекательно
+                      </p>
+                    </div>
+                  </div>
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container slide-bg4">
+                      <h3 class="advantages-slide__title">
+                        Образовательные программы
+                      </h3>
+                      <p class="advantages-slide__description">
+                        Сессии дополненные ценными знаниями приведут вас к новым
+                        высотам и закрепят успех терапии
+                      </p>
+                    </div>
+                  </div>
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container slide-bg5">
+                      <h3 class="advantages-slide__title">
+                        Чат с экспертами Uwio
+                      </h3>
+                      <p class="advantages-slide__description">
+                        Ответим на любой вопрос и поможем оперативно решить
+                        любую проблему
+                      </p>
+                    </div>
+                  </div>
+                  <div class="advantages-desktop__item">
+                    <div class="advantages-slide__container slide-bg6">
+                      <h3 class="advantages-slide__title">Мы рядом</h3>
+                      <p class="advantages-slide__description">
+                        Сессии с психологами доступны из любой точки мира
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <a class="advantages__btn-link topic__btn-link" href="#"
                 >Подобрать специалиста</a
               >
@@ -745,9 +813,9 @@
                   <h3 class="team__box-title skills__title">
                     От команды Uwio:
                   </h3>
-                  <div class="team-slider__swiper swiper">
-                    <div class="team-slider__wrapper swiper-wrapper">
-                      <div class="swiper-slide">
+                  <div class="swiper team-slider-swiper">
+                    <div class="swiper-wrapper team-swiper-wrapper">
+                      <div class="swiper-slide team-swiper-slide">
                         <blockquote class="team__box-citation">
                           «Человек с эмоциональными проблемами и внутренними
                           конфликтами очень похож на дом, в котором много хаоса
@@ -775,10 +843,10 @@
                     </div>
                     <div class="team__arrow-inner reviews__arrow-inner">
                       <div
-                        class="team__prev reviews__prev swiper-button-prev"
+                        class="swiper-button-prev team__prev reviews__prev"
                       ></div>
                       <div
-                        class="team__next reviews__next swiper-button-next"
+                        class="swiper-button-next team__next reviews__next"
                       ></div>
                     </div>
                   </div>
