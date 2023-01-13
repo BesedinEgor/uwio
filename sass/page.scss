@@ -1,14 +1,12 @@
 .inner__body {
+  position: relative;
   padding-top: 20px;
   // background-image: url("../img/bg-top.png");
   // background-repeat: no-repeat;
   // background-size: 210%;
 
   // @media (min-width: $desktop-width) {
-  //   background-image: url("../img/bg-top-desk.png");
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position-x: 28%;
-  //   background-position-y: -200px;
+  //   position: absolute;
+
   // }
 }

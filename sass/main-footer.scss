@@ -46,7 +46,7 @@
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
+    gap: 10px;
     width: 480px;
     margin-left: auto;
   }
@@ -66,4 +66,9 @@
 .main-footer__link {
   text-decoration: none;
   color: var(--dark-color);
+
+  @media (min-width: $desktop-width) {
+    font-size: 13px;
+    line-height: 16px;
+  }
 }

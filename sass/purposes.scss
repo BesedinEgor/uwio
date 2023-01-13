@@ -3,6 +3,10 @@
   margin-bottom: 50px;
   padding-bottom: 300px;
 
+  @media (min-width: $desktop-width) {
+    padding-bottom: 250px;
+  }
+
   &::after {
     content: "";
     position: absolute;
@@ -16,6 +20,18 @@
     bottom: 0;
   }
 
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/bg-top.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1731px;
+    z-index: -1;
+    top: -950px;
+    left: 0;
+  }
+
   @media (min-width: $desktop-width) {
     &::after {
       width: 824px;
@@ -25,6 +41,13 @@
       background-size: contain;
       right: 0;
       bottom: -220px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/bg-top-desk.png");
+      height: 1316px;
     }
   }
 }
